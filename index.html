@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Travel</title>
+  <!-- google-font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700&family=Volkhov:wght@700&display=swap"
+    rel="stylesheet">
+  <!-- font-awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- css-link -->
+  <link rel="stylesheet" href="/css/style.css">
+  <link rel="stylesheet" href="css/responsive.css">
+  <!-- bootstrap-link -->
+  <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+</head>
+
+<body>
+  <!-- header -->
+  <header id="header">
+    <div class="container">
+      <nav>
+        <div class="logo"><span>Travel</span> <img src="img/Arrow 05.svg" alt=""></div>
+        <div class="nav-links" id="navLinks">
+          <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+          <ul>
+            <li><a href="#">home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a>
+              <ul>
+                <li><a href="#">Honeymoon Packages</a></li>
+                <li><a href="#">Tours Packages</a></li>
+                <li><a href="#">Musical Events</a></li>
+                <li><a href="#">Build Package</a></li>
+              </ul>
+            </li>
+            <li><a href="#">Upcomming Packages</a></li>
+          </ul>
+          <button class="button">get in tuch</button>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+      </nav>
+    </div>
+  </header>
+  <!-- hero -->
+  <section id="hero-area">
+    <div class="container padding">
+      <div class="row">
+        <div class="col-lg-8">
+          <h1>No matter where you’re going to, we’ll take you there</h1>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-12">
+          <div class="select">
+            <div class="row">
+              <div class="col-md-3">
+                <p>Where to?</p>
+              </div>
+              <div class="col-md-3">
+                <select class="form-select bg-none ">
+                  <option selected>Travel Type</option>
+                  <option value="1">One</option>
+                  <option value="2">Two</option>
+                  <option value="3">Three</option>
+                </select>
+              </div>
+              <div class="col-md-3">
+                <select class="form-select bg-none ">
+                  <option selected>Duration</option>
+                  <option value="1">One</option>
+                  <option value="2">Two</option>
+                  <option value="3">Three</option>
+                </select>
+              </div>
+              <div class="col-md-3">
+                <button class="button">submit</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- partners -->
+  <section id="partners">
+    <div class="container">
+      <div class="row justify-content-between text-sm-center">
+        <div class=" col">
+          <img src="img/image 909.png" alt="">
+        </div>
+        <div class="col">
+          <img src="img/image 909.png" alt="">
+        </div>
+        <div class=" col">
+          <img src="img/image 909.png" alt="">
+        </div>
+        <div class="col">
+          <img src="img/image 912.png" alt="">
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- services -->
+  <section id="services">
+    <div class="container">
+      <h4 class="subtitle">CATEGORY</h4>
+      <h2 class="title">We Offer Best Services</h2>
+      <div class="row">
+        <div class="col-md-6 col-lg-3  pt-3">
+          <div class="card">
+            <img src="img/tour-guide 1.png" alt="">
+            <div class="card-body">
+              <h5 class="card-title">Guided Tours</h5>
+              <p class="card-text">sunt qui repellat saepe quo velit aperiam id aliquam placeat.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-3 pt-3 ">
+          <div class="card card-affter">
+            <img src="img/travelling 1.png" alt="">
+            <div class="card-body">
+              <h5 class="card-title">col-md-6</h5>
+              <p class="card-text">sunt qui repellat saepe quo velit aperiam id aliquam placeat.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-3  pt-3">
+          <div class="card">
+            <img src="img/hands 1.png" alt="">
+            <div class="card-body">
+              <h5 class="card-title">Religious Tours</h5>
+              <p class="card-text">sunt qui repellat saepe quo velit aperiam id aliquam placeat.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-3 pt-3">
+          <div class="card">
+            <img src="img/medical-team 1.png" alt="">
+            <div class="card-body">
+              <h5 class="card-title">Medical insurance</h5>
+              <p class="card-text">sunt qui repellat saepe quo velit aperiam id aliquam placeat.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+  </section>
+  <!-- romantic -->
+  <section id="romantic-area">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <div class="img">
+            <img class="img-fluid" src="img/image 50.png" alt="">
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="right-area">
+            <h4 class="subtitle">Honeymoon Specials</h4>
+            <h1 class="title">Our Romantic Tropical Destinations</h1>
+            <p class="pera">Et labore harum non nobis ipsum eum molestias mollitia et corporis praesentium a laudantium
+              internos.
+              Non
+              quis eius quo
+              eligendi corrupti et fugiat nulla qui soluta recusandae in maxime quasi aut ducimus illum aut optio
+              quibusdam!</pc>
+              <button class="button">View Packages</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- resort-booking -->
+  <section id="resort-booking">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-5 ">
+          <h4 class="subtitle">Fast & Easy</h4>
+          <h1 class="title">Get Your Favourite
+            Resort Bookings</h1>
+          <div class="group">
+            <img src="img/Group 7.svg" alt="">
+            <div class="group-text">
+              <h4 class="pera ">Choose Destination</h4>
+              <p class="pera">Lorem ipsum dolor sit amet, consectetur
+                adipiscing elit. Urna, tortor tempus.</p>
+            </div>
+          </div>
+          <div class="group">
+            <img src="img/Group 12.svg" alt="">
+            <div class="group-text">
+              <h4 class="pera ">Choose Destination</h4>
+              <p class="pera">Lorem ipsum dolor sit amet, consectetur
+                adipiscing elit. Urna, tortor tempus.</p>
+            </div>
+          </div>
+          <div class="group">
+            <img src="img/Group 11.svg" alt="">
+            <div class="group-text">
+              <h4 class="pera ">Choose Destination</h4>
+              <p class="pera">Lorem ipsum dolor sit amet, consectetur
+                adipiscing elit. Urna, tortor tempus.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-7">
+          <div class="right-area">
+            <div class="card">
+              <img class="card-img-top" src="img/Rectangle 17.png" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">Trip to Hawaii </h5>
+                <p class="card-text d-inline">14-29 June</p>
+                <p class="card-text d-inline">by JR Martinax</p>
+                <div class="d-flex">
+                  <ul>
+                    <li><img src="img/leaf 1.svg" alt=""></li>
+                    <li><img src="img/map 1.svg" alt=""></li>
+                    <li><img src="img/send 2.svg" alt=""></li>
+                  </ul>
+                  <div class="group">
+                    <img src="img/image 32.png" alt="">
+                    <div class="group-text">
+                      <h4 class="pera ">Ongoing</h4>
+                      <p class="pera p">Trip to rome</p>
+                      <h5 class="pera "><span>40% </span>completed</>
+                    </div>
+                  </div>
+                </div>
+                <ul>
+                  <li><img src="img/building 1.svg" alt=""></li>
+                  <li class="pera">60 people are interested</li>
+                </ul>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- make-holiday -->
+  <section id="holiday">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <h1 class="title">Let’s make your next holiday amazing</h1>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- provide-best-tours -->
+  <section id="provide-best-tour">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-7">
+          <div class="left-area">
+            <h4 class="subtitle">Promotion</h4>
+            <h1 class="title">We Provide You Best Europe Sightseeing Tours</h1>
+            <p class="pera">Et labore harum non nobis ipsum eum molestias mollitia et corporis praesentium a laudantium
+              internos.Non quis eius quo eligendi corrupti et fugiat nulla qui soluta recusandae in maxime quasi aut
+              ducimus illum aut optio
+              quibusdam!</pc>
+              <button class="button">View Packages</button>
+          </div>
+        </div>
+        <div class="col-md-5">
+          <div class="right-area">
+            <img class="img-fluid" src="img/image 50 (1).png" alt="">
+          </div>
+        </div>
+        <div class="best-place">
+          <div class="row">
+
+            <div class="col-md-2 col-6">
+              <div class="card">
+                <img src="img/Rectangle 19295.png" alt="">
+                <p class="price">$700</p>
+              </div>
+            </div>
+            <div class="col-md-2 col-6">
+              <div class="card">
+                <img src="img/Rectangle 19296.png" alt="">
+                <p class="price">$600</p>
+              </div>
+            </div>
+            <div class="col-md-2 col-6">
+              <div class="card">
+                <img src="img/Rectangle 19297.png" alt="">
+                <p class="price">$800</p>
+              </div>
+            </div>
+            <div class="col-md-2 col-6">
+              <div class="card">
+                <img src="img/Rectangle 19298.png" alt="">
+                <p class="price">$400</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- view-project -->
+  <section id="view-project">
+    <div class="row">
+      <div class="col-md-6">
+        <div class="bg">
+          <div class="content">
+            <h4 class="subtitle">Promotion</h4>
+            <h1 class="title">Explore Nature</h1>
+            <button class="button">View Packages</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- script -->
+  <script src="js/main.js"></script>
+</body>
+
+</html>
