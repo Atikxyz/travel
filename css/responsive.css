@@ -1,0 +1,71 @@
+@media only screen and (min-width: 300px) and (max-width: 992px) {
+  #header nav .nav-links {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    position: absolute;
+    top: 0px;
+    right: -999px;
+    width: 300px;
+    background: #000;
+    height: 100vh;
+    transition: 0.5s;
+    overflow: hidden;
+    z-index: 10;
+  }
+  #header nav .nav-links ul {
+    display: flex;
+    flex-direction: column;
+  }
+  #header nav .nav-links ul li {
+    padding: 20px 50px;
+  }
+  #header nav .nav-links .button {
+    margin: auto;
+    margin-top: 20px;
+    width: 90%;
+    height: 40px;
+  }
+  #header nav .fa-bars,
+  #header nav .fa-xmark {
+    display: block;
+    font-size: 35px;
+    color: #fff;
+    cursor: pointer;
+  }
+  #hero-area {
+    padding: 0 30px;
+  }
+  #hero-area .padding {
+    padding: 270px 0;
+  }
+  #hero-area h1,
+  #hero-area .h1 {
+    font-size: 40px;
+    line-height: 50px;
+  }
+  #romantic-area .right-area {
+    margin-top: 0;
+    margin-left: 50px;
+  }
+  #resort-booking .right-area {
+  padding-top: 50px;
+}
+
+}
+
+@media only screen and (min-width: 300px) and (max-width: 768px) {
+  #romantic-area .right-area {
+    margin-top: 25px;
+    margin-left: 0px;
+  }
+  #provide-best-tour .card{
+  padding: 20px;
+}
+#provide-best-tour .price {
+  top: 35px;
+}
+#provide-best-tour .right-area {
+  display: none;
+}
+}
